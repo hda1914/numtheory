@@ -25,7 +25,7 @@ public class AmicableNumbers {
 			System.out.println("Using limit: "+upperNum+", Done in " + timeElapsed + " ms");
 		}
 		else
-			System.out.println("Sorry only accept limit >= 20000000");
+			System.out.println("Sorry only accept limit <= 20000000");
 	}
 
 }
